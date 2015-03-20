@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SMS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+            <!-- หมายเลขโทรศัพท์-->
+      <input id="numberTxt" placeholder="Enter mobile number" value="4642525" type="tel" class="hidden" />
+    	    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo-small.png"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">รายละเอียดช่อง</a>
+                    </li>
+                    <li>
+                        <a href="services.html">ช่องทางการรับชม</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">ละคร & ซีรีส์
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- ละคร ซีรีส์ Row -->
+        <div class="row" >
+        
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="cfds5" class="hidden">GMM25 aClub Friday The Series S5</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/Club Friday The Series.png" alt="" onClick="app.sendSms(document.getElementById('cfds5').value)">
+                        </a>
+                <h6>
+                    <a href="#" onClick="app.sendSms(document.getElementById('cfds5').value)">Club Friday the Series S5</a>
+                </h6>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" >
+            <textarea id="cupid" class="hidden">GMM25 aน้ำตากามเทพ</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_StupidCupid.png" alt="" onClick="app.sendSms(document.getElementById('cupid').value)">
+                        </a>
+                <h5>
+                    <a href="#" onClick="app.sendSms(document.getElementById('cupid').value)">น้ำตากามเทพ</a>
+                </h5>
+
+            </div>
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="skins" class="hidden">GMM25 askins ซ่าส์เข้าเส้น</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/skins ซ่าส์เข้าเส้น.png" alt="" onClick="app.sendSms(document.getElementById('skins').value)">
+                        </a>
+                <h5>
+                    <a href="#" onClick="app.sendSms(document.getElementById('skin').value)">SKINS ซ่าส์เข้าเส้น </a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="loveOA3" class="hidden">GMM25 aLOVE ON AIR 3</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_LOVEONAIR3.png" alt="" onClick="app.sendSms(document.getElementById('loveOA3').value)">
+                        </a>
+                <h4>
+                <a href="#" onClick="app.sendSms(document.getElementById('loveOA3').value)">LOVE ON AIR 3</a>
+                </h4>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg1" class="hidden">GMM25 aLOVE NOW</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_LOVENOW.png" alt="" onClick="app.sendSms(document.getElementById('txtmsg1').value)">
+                        </a>
+                <h5>
+                    <a href="#" onClick="app.sendSms(document.getElementById('txtmsg1').value)">LOVE NOW</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg2" class="hidden">GMM25 aLOVE AROUND</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_LOVEAROUND.png" alt="" onClick="app.sendSms(document.getElementById('txtmsg2').value)">
+                        </a>
+                <h5>
+                     <a href="#" onClick="app.sendSms(document.getElementById('txtmsg2').value)">LOVE AROUND</a>
+               </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg3" class="hidden">GMM25 a2Fathers</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_TwoFather.png" alt="" onClick="app.sendSms(document.getElementById('txtmsg3').value)">
+                   	<h5><a href="#" onClick="app.sendSms(document.getElementById('txtmsg3').value)">2 Fathers - คุณพ่อคูณสอง</a> </h5>
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg4" class="hidden">GMM25 aFULL HOUSE Take 2</textarea>
+                <a href="#" onClick="app.sendSms(document.getElementById('txtmsg4').value)">
+                    <img class="img-responsive img-circle table-bordered" src="icon/fullhousetake2.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#" onClick="app.sendSms(document.getElementById('txtmsg4').value)">FULL HOUSE Take 2</a>
+               </h5>
+
+            </div>
+       	
+            <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg5" class="hidden">GMM25 aสิบสยอง</textarea>
+                <a href="#" onClick="app.sendSms(document.getElementById('txtmsg5').value)">
+                    <img class="img-responsive img-circle table-bordered" src="icon/สิบสยอง2.jpg" alt="">
+                        </a>
+                <h5>
+                     <a href="#" onClick="app.sendSms(document.getElementById('txtmsg5').value)">สิบสยอง</a>
+               </h5>
+
+            </div>
+            
+        </div>
+                <hr>
+        <!-- ข่าว -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">ข่าว & ข่าวบันเทิง
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                <div class="col-xs-3 portfolio-item" align="center">
+            <textarea id="txtmsg6" class="hidden">GMM25 aGMM NEWS ข่าวเช้า</textarea>
+                <a href="#" onClick="app.sendSms(document.getElementById('txtmsg6').value)">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gmm_news_ข่าวเช้า.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" onClick="app.sendSms(document.getElementById('txtmsg6').value)" >GMM NEWS ข่าวเช้า</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg7').value)">
+            <textarea id="txtmsg7" class="hidden">GMM25 aGMM NEWS ข่าวเที่ยง</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gmm_news_ข่าวเที่ยง.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >GMM NEWS ข่าวเที่ยง</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg8').value)">
+            <textarea id="txtmsg8" class="hidden">GMM25 aGMM NEWS ข่าวเย็น</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gmm_news_ข่าวเย็น.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >GMM NEWS ข่าวเย็น</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg9').value)">
+            <textarea id="txtmsg9" class="hidden">GMM25 aSunday Summary 7วันทันข่าว</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SundaySummery.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Sunday Summary 7วันทันข่าว</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg10').value)">
+            <textarea id="txtmsg10" class="hidden">GMM25 aแฉแต่เช้า</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SHARE.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >แฉแต่เช้า</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg11').value)">
+            <textarea id="txtmsg11" class="hidden">GMM25 aสน.แสนแสบ</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SorNorSANSAAB.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >สน.แสนแสบ</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg12').value)">
+            <textarea id="txtmsg12" class="hidden">GMM25 aEFM ON TV</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/efmontv.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#" >EFM ON TV</a>
+               </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg13').value)">
+            <textarea id="txtmsg13" class="hidden">GMM25 aEFM Top 10</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/efmtop10.png" alt="">
+                   	<h5>EFM Top 10 </a> </h5>
+            </div>
+       	
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg14').value)">
+            <textarea id="txtmsg14" class="hidden">GMM25 aสน. HOLLYWOOD</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SorNorHOLLYWOOD.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#">สน. HOLLYWOOD</a>
+               </h5>
+
+            </div>
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg15').value)">
+            <textarea id="txtmsg15" class="hidden">GMM25 aMovie Seat</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/movie seat.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#">Movie Seat</a>
+               </h5>
+
+            </div>
+            
+            
+        </div>
+        <hr>
+                <!-- วาไรตี้ -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">วาไรตี้
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg16').value)">
+            <textarea id="txtmsg16" class="hidden">GMM25 aClub Friday Show</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/Club Friday Show.png" alt="">
+                        </a>
+                <h6>
+                    <a href="#" >Club Friday Show </a>
+                </h6>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg17').value)">
+            <textarea id="txtmsg17" class="hidden">GMM25 a4 มติ</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/4มติ.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >4 มติ</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg18').value)">
+            <textarea id="txtmsg18" class="hidden">GMM25 aOPAL Law เฟิร์ม</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/opal.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >OPAL Law เฟิร์ม</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg19').value)">
+            <textarea id="txtmsg19" class="hidden">GMM25 a2 Piece 2 Please</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/2piece2plase.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >2 Piece 2 Please</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg20').value)">
+            <textarea id="txtmsg20" class="hidden">GMM25 aSisterday Star Live</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SISTERDAYSTARLIVE.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Sisterday Star Live</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg21').value)">
+            <textarea id="txtmsg21" class="hidden">GMM25 aเอกกี้เม้าท์</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/เอกกี้เม้าท์.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >เอกกี้เม้าท์</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg22').value)">
+            <textarea id="txtmsg22" class="hidden">GMM25 aเริ่ด หรู คู่เวอร์</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_MeetTheFab.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#" >เริ่ด หรู คู่เวอร์</a>
+               </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg220').value)">
+            <textarea id="txtmsg220" class="hidden">GMM25 aSweet It My Way</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/sweet-it-my-way.png" alt="">
+                        </a>
+                <h5>
+                     <a href="#" >Sweet It My Way</a>
+               </h5>
+
+            </div>            
+            
+        </div>
+        <hr>
+                <!--เกมโชว์ -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">เกมโชว์
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg23').value)">
+            <textarea id="txtmsg23" class="hidden">GMM25 aโป๊ะป๊ะ นัตโตะ</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_POpaNUTTO.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >โป๊ะป๊ะ นัตโตะ</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg24').value)">
+            <textarea id="txtmsg24" class="hidden">GMM25 aBattle for Money</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/Battle for Money สมรภูมิเงิน.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Battle for Money สมรภูมิเงิน</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg25').value)">
+            <textarea id="txtmsg25" class="hidden">GMM25 aเกมวัดดวง</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_GameWadDuang.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >เกมวัดดวง</a>
+                </h5>
+
+            </div>
+                        
+        </div>
+        <hr>
+                 <!--อาหาร -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">อาหาร
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg26').value)">
+            <textarea id="txtmsg26" class="hidden">GMM25 aครอบครัวตัวกิน</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ครอบครัวตัวกิน.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ครอบครัวตัวกิน</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg27').value)">
+            <textarea id="txtmsg27" class="hidden">GMM25 aเชฟบุ๊คกุ๊กอาร์ต</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SHEFbookKookART.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >เชฟบุ๊คกุ๊กอาร์ต</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg28').value)">
+            <textarea id="txtmsg28" class="hidden">GMM25 aTop 5 Thailand</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_TopFiveTHAI.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Top 5 Thailand</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg29').value)">
+            <textarea id="txtmsg29" class="hidden">GMM25 aอร่อยเหยียบเบรก</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_AroiYeabBREAK.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >อร่อยเหยียบเบรก</a>
+                </h5>
+
+            </div>
+                        
+        </div>
+        <hr>
+                <!--สาระประโยชน์&ท่องเที่ยว -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">สาระประโยชน์&ท่องเที่ยว
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg30').value)">
+            <textarea id="txtmsg30" class="hidden">GMM25 aฟังเพลงบรรเลงธรรม</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_ListenDHAMMA.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ฟังเพลงบรรเลงธรรม</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg31').value)">
+            <textarea id="txtmsg31" class="hidden">GMM25 aตื่นไปธรรม</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_wakeupDhamma.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ตื่นไปธรรม</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg32').value)">
+            <textarea id="txtmsg32" class="hidden">GMM25 aGPS</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gps.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >GPS</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg33').value)">
+            <textarea id="txtmsg33" class="hidden">GMM25 aLoukGolf's English room</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ลูกกอล์ฟ english room.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >LoukGolf's English room</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg34').value)">
+            <textarea id="txtmsg34" class="hidden">GMM25 aคนลองป่า</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_WOODS.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >คนลองป่า</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg35').value)">
+            <textarea id="txtmsg35" class="hidden">GMM25 aตื่นมาติว</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_wakeUPtutor.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ตื่นมาติว</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg36').value)">
+            <textarea id="txtmsg36" class="hidden">GMM25 aสุขนิยม</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SookNiyom.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >สุขนิยม</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg37').value)">
+            <textarea id="txtmsg37" class="hidden">GMM25 aO Shopping</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/oshopping.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >O Shopping</a>
+                </h5>
+
+            </div>
+                        
+        </div>
+        <hr>       
+                <!--วัยรุ่น -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">วัยรุ่น
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg38').value)">
+            <textarea id="txtmsg38" class="hidden">GMM25 aProteen</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_PROTEEN.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Proteen</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg39').value)">
+            <textarea id="txtmsg39" class="hidden">GMM25 aO:IC</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/oic.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >O:IC</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg40').value)">
+            <textarea id="txtmsg40" class="hidden">GMM25 aภูมิคุ้มกัน</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_PoomKoomGun.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ภูมิคุ้มกัน</a>
+                </h5>
+
+            </div>
+            
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg41').value)">
+            <textarea id="txtmsg41" class="hidden">GMM25 aเกรียน Possible ®</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/เกรียน.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >เกรียน Possible ®</a>
+                </h5>
+
+            </div>
+
+                        
+        </div>
+        <hr>
+                <!--การ์ตูน -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">การ์ตูน
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg42').value)">
+            <textarea id="txtmsg42" class="hidden">GMM25 aGANG CARTOON KIDZ</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_GaneCartoonKIDZ.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >GANG CARTOON KIDZ</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg43').value)">
+            <textarea id="txtmsg43" class="hidden">GMM25 aGang cartoon Teen</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_GaneCartoonTEEN.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Gang cartoon Teen</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg44').value)">
+            <textarea id="txtmsg44" class="hidden">GMM25 aเบิร์ดแลนด์</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/เบิร์ดแลนด์.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >เบิร์ดแลนด์</a>
+                </h5>
+
+            </div>           
+                        
+        </div>
+        <hr>
+                <!--การเงิน -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">การเงิน
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg45').value)">
+            <textarea id="txtmsg45" class="hidden">GMM25 aHard Topic</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/hard topic.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Hard Topic</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg46').value)">
+            <textarea id="txtmsg46" class="hidden">GMM25 aCEO Talk</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ceo talk.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >CEO Talk</a>
+                </h5>
+                </div>
+
+
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg47').value)">
+            <textarea id="txtmsg47" class="hidden">GMM25 aSME มีกึ๋น</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_SMEmeeGuen.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >SME มีกึ๋น</a>
+                </h5>
+
+            </div> 
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg48').value)">
+            <textarea id="txtmsg48" class="hidden">GMM25 aYour First Stock</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_1stock.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >Your First Stock</a>
+                </h5>
+
+            </div>           
+			            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg49').value)">
+            <textarea id="txtmsg49" class="hidden">GMM25 aธรรมาหากิน</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/ICON_doCOMEfindEAT.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >ธรรมาหากิน</a>
+                </h5>
+
+            </div>           
+          
+                        
+        </div>
+        <hr>
+                <!--เพลง -->
+                <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">เพลง
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+                <div class="row" >
+        
+                        <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg50').value)">
+            <textarea id="txtmsg50" class="hidden">GMM25 aGMM25 The Concerts</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gmm25theconcert.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >GMM25 The Concerts</a>
+                </h5>
+
+            </div>
+            
+            <div class="col-xs-3 portfolio-item" align="center" onClick="app.sendSms(document.getElementById('txtmsg51').value)">
+            <textarea id="txtmsg51" class="hidden">GMM25 aMV</textarea>
+                <a href="#">
+                    <img class="img-responsive img-circle table-bordered" src="icon/gmm mv.png" alt="">
+                        </a>
+                <h5>
+                    <a href="#" >MV</a>
+                </h5>
+                </div>
+                        
+        </div>
+        <hr>
+      
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+						<a href="#" class="footer-left"><img  src="images/logo-1.png" alt=" " /></a>
+					 <p class="footer-grid">GMM25 <a href="#">สนุกทุกวัน อยู่ด้วยกันทุกเวลา</a></p>
+				<div class="clearfix"> </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="condova.js"></script>
+    
+    
+    <script src="js/smsfunc.js"></script>
+
+    
+
+
+</html>
